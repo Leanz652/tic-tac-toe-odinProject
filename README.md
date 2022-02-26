@@ -6,4 +6,4 @@ Pendientes:
 -   IA
 -   Setting players.
 
-[LIVE WEB] (https://leanz652.github.io/tic-tac-toe-odinProject/)
+[LIVE WEB](https://leanz652.github.io/tic-tac-toe-odinProject/)
