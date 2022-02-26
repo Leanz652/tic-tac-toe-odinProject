@@ -37,14 +37,12 @@ const displayAdmin = (
           ganoAlguien = true;
 
           tablero.modoVictoria(combinacion);
+            console.log("win");
+          } 
+        })
 
-        } else {
-          if (getJugadasPendientes() == 0) {
-            tie = true;
-            tablero.modoEmpate();
-          }
-        }
-      })
+        if (!ganoAlguien && JUGADAS_PENDIENTES == 0) {tablero.modoEmpate()}
+
     }
 
     const winningAxes = [
